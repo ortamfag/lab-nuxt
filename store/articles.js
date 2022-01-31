@@ -54,5 +54,5 @@ export const getters = {
 
   getActiveComments(state) {
       return state.activeComments;
-  }
+  },
 };

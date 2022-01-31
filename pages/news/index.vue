@@ -30,3 +30,17 @@ export default {
   },
 };
 </script>
+
+<style>
+.v-card__title{
+  color: #FFFFFF;
+}
+
+.v-application a {
+  text-decoration: none;
+}
+
+.v-card__subtitle{
+  color: #FFFFFF;
+}
+</style>

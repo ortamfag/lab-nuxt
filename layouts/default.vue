@@ -100,6 +100,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Новости',
           to: '/news'
+        },
+        {
+          icon: 'mdi-plus',
+          title: 'Галерея',
+          to: '/gallery'
         }
       ],
       miniVariant: false,
