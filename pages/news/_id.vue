@@ -43,8 +43,8 @@
       <div class="comment"
       v-for="comment in activeComments"
       :key="comment.id">
-        <p class="name">{{comment.user_name}}</p>
-        <p class="text">{{comment.comment}}</p>
+        <p class="name"><strong>Имя:</strong><br>{{comment.user_name}}</p>
+        <p class="text"><strong>Комментарий:</strong><br>{{comment.comment}}</p>
       </div>
     </div>
   </div>
@@ -98,3 +98,21 @@ export default {
   }
 };
 </script>
+
+<style>
+
+.comment {
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.name{
+  margin-top: 16px;
+  margin-left: 20px;
+}
+
+.text{
+  margin-left: 20px;
+}
+
+</style>
